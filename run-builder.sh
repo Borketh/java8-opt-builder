@@ -1,0 +1,1 @@
+sudo docker run -v ./java-build-out:/app/java-builds java8-builder-bork "$1"

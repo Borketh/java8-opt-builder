@@ -1,8 +1,5 @@
 FROM gcc:13
 
-MAINTAINER borketh
-
-
 # get build dependencies
 RUN apt-get update
 RUN apt-get install -yy build-essential zip x11-xserver-utils libx11-dev libxext-dev libxrender-dev libxtst-dev \
